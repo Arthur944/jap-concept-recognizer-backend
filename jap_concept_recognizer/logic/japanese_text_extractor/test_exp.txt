@@ -1,0 +1,27 @@
+<header class="entry-header">
+<h1 class="entry-title">The Question Marker</h1>
+</header>
+<div class="entry-content">
+<h2 id="part1"><span id="Questions_in_polite_form">Questions in polite form</span></h2>
+<p>The question marker is covered here because it is primarily used to clearly indicate a question in polite sentences. While it is entirely possible to express a question even in polite form using just intonation, the question marker is often attached to the very end of the sentence to indicate a question. The question marker is simply the hiragana character 「か」 and you don&rsquo;t need to add a question mark. For previously explained reasons, you must not use the declarative 「だ」 with the question marker.</p>
+<h3>Example 1</h3>
+<p><span class="popup" title="たなか - Tanaka">田中</span>さん：<span class="popup" title="おかあさん - mother">お母さん</span>は<span class="popup" title="どこ - where">どこ</span>です<em>か</em>。<br />Tanaka-san: Where is (your) mother?</p>
+<p><span class="popup" title="すずき - Suzuki">鈴木</span>さん：<span class="popup" title="はは - mother">母</span>は<span class="popup" title="かいもの - shopping">買い物</span>に<span class="popup" title="いく - to go">行きました</span>。<br />Suzuki-san: (My) mother went shopping.</p>
+<h3>Example 2</h3>
+<p>キムさん：<span class="popup" title="イタリア - Italy">イタリア</span><span class="popup" title="りょうり - dish, cuisine">料理</span>を<span class="popup" title="たべる - to eat">食べ</span>に<span class="popup" title="いく - to go">行きません</span><em>か</em>。<br />Kim-san: Go to eat Italian food?</p>
+<p>鈴木さん：<span class="popup" title="すみません - sorry">すみません</span>。<span class="popup" title="ちょっと - a little">ちょっと</span>、<span class="popup" title="おなか - stomach">お腹</span>が<span class="popup" title="いっぱい - full">いっぱい</span>です。<br />Suzuki-san: Sorry. (My) stomach is a little full.</p>
+<p>Here the question is actually being used as an invitation just like how in English we say, &ldquo;Won&rsquo;t you come in for a drink?&rdquo; 「<span class="popup" title="すみません - sorry">すみません</span>」 is a polite way of apologizing. Slightly less formal is 「<span class="popup" title="ごめんなさい - sorry">ごめんなさい</span>」 while the casual version is simply 「<span class="popup" title="ごめん - sorry">ごめん</span>」.</p>
+<h2 id="part2"><span id="The_question_marker_in_casual_speech">The question marker in casual speech</span></h2>
+<h3>Vocabulary</h3>
+<p>It makes sense to conclude that the question marker would work in exactly the same way in casual speech as it does in polite speech. However, this is&nbsp;<strong>not</strong>&nbsp;the case. The question marker 「か」 is usually not used with casual speech to make actual questions. It is often used to consider whether something is true or not. Depending on the context and intonation, it can also be used to make rhetorical questions or to express sarcasm. It can sound quite rough so you might want to be careful about using 「か」 for questions in the plain casual form.</p>
+<h3>Examples</h3>
+<ol>
+<li><span class="popup" title="こんな - this sort of">こんな</span>のを<span class="popup" title="ほんとう - really">本当</span>に<span class="popup" title="たべる - to eat">食べる</span><em>か</em>？<br />Do you think [he/she] will really eat this type of thing?</li>
+<li><span class="popup" title="そんな - that sort of">そんな</span>のは、<span class="popup" title="ある - to exist (inanimate)">ある</span><em>か</em>よ！<br />Do I look like I would have something like that?!</li>
+</ol>
+<p>Instead of 「か」, real questions in casual speech are usually asked with the explanatory の particle or nothing at all except for a rise in intonation, as we have already seen in previous sections.</p>
+<ol>
+<li><span class="popup" title="こんな - this sort of">こんな</span>のを<span class="popup" title="ほんとう - really">本当</span>に<span class="popup" title="たべる - to eat">食べる</span>？<br />Are you really going to eat something like this?</li>
+<li><span class="popup" title="そんな - that sort of">そんな</span>のは、<span class="popup" title="ある - to exist (inanimate)">ある</span><em>の</em>？<br />Do you have something like that?</li>
+</ol>
+</div>

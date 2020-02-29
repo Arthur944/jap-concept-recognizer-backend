@@ -1,0 +1,29 @@
+<h2 id="part2"><span id="Expressing_a_sequence_of_states">Expressing a sequence of states</span></h2>
+<h3>Vocabulary</h3>
+<p>It is very easy to combine a chain of nouns and adjectives to describe a person or object. For example, in English if we wanted to say, &ldquo;He is X. He is Y. He is Z.&rdquo; since all three sentences have the same noun, we would usually say, &ldquo;He is X, Y, and Z.&rdquo; In Japanese, we can do the same thing by conjugating the noun or adjective. The last noun or adjective remains the same as before.</p>
+<div class="sumbox"><span class="summary">How to chain nouns and adjectives together</span>
+<p>&nbsp;</p>
+<ul>
+<li><strong>For nouns and na-adjectives:</strong>&nbsp;Attach 「で」 to the noun or na-adjective. Examples
+<ol>
+<li><span class="popup" title="いっぱんてき - in general">一般的</span>&nbsp;&rarr;&nbsp;<span class="popup" title="いっぱんてき - in general">一般的</span><em>で</em></li>
+<li><span class="popup" title="しずか - quiet">静か</span>&nbsp;&rarr;&nbsp;<span class="popup" title="しずか - quiet">静か</span><em>で</em></li>
+</ol>
+</li>
+<li><strong>For i-adjectives and negative noun/adjectives:</strong>&nbsp;Replace the 「い」 with 「くて」. ※For 「<span class="popup" title="いい - good">いい</span>」 and 「<span class="popup" title="かっこいい - good-looking, cool">かっこいい</span>」, the 「い&rarr;よ」 exception applies here as well. Examples
+<ol>
+<li><span class="popup" title="せまい - narrow">狭<em><span style="text-decoration: line-through;">い</span></em></span>&nbsp;&rarr;&nbsp;<span class="popup" title="せまい - narrow">狭<em>くて</em></span></li>
+<li><span class="popup" title="かのじょ - she, girlfriend">彼女</span>じゃな<em><span style="text-decoration: line-through;">い</span></em>&nbsp;&rarr;&nbsp;<span class="popup" title="かのじょ - she, girlfriend">彼女</span>じゃな<em>くて</em></li>
+<li><span class="popup" title="いい - good"><em><span style="text-decoration: line-through;">いい</span></em></span>&nbsp;&rarr;&nbsp;<span class="popup" title="いい - good"><em>よくて</em></span></li>
+</ol>
+</li>
+</ul>
+</div>
+<h3>Examples</h3>
+<ol>
+<li><span class="popup" title="わたし - me, myself, I">私</span>の<span class="popup" title="へや - room">部屋</span>は、<span class="popup" title="きれい - neat, pretty">きれい</span><em>で</em>、<span class="popup" title="しずか - quiet">静か</span><em>で</em>、<span class="popup" title="とても - very">とても</span><span class="popup" title="すき - like">好き</span>。 My room is clean, quiet, and I like it a lot.</li>
+<li><span class="popup" title="かのじょ - she, girlfriend">彼女</span>は、<span class="popup" title="がくせい - student">学生</span>じゃな<em>くて</em>、<span class="popup" title="せんせい - teacher">先生</span>だ。 She is not a student, she is a teacher.</li>
+<li><span class="popup" title="たなか - Tanaka">田中</span>さんは、<span class="popup" title="おかねもち - rich">お金持ち</span><em>で</em>、<span class="popup" title="かっこいい - cool, handsome">かっこ<em>よくて</em></span>、<span class="popup" title="みりょくてき - charming">魅力的</span>ですね。 Tanaka-san is rich, handsome, and charming, isn&rsquo;t he?</li>
+</ol>
+<p>As you can see, the 「で」 attached to 「お金持ち」 obviously cannot be the context particle 「で」 here because there is no verb. It might be helpful to think of 「で」 as merely a substitution for 「だ」 that can be chained together.</p>
+<h2 id="part3">&nbsp;</h2>
