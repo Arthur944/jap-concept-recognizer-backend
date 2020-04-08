@@ -7,6 +7,7 @@ from jap_concept_recognizer.logic.sents import *
 import romkan
 from functools import reduce
 from jap_concept_recognizer.logic.japanese_text_extractor.japanese_text_extractor import extract_japanese_text
+from .kana_mapper import KanaMapper
 
 
 class Concept:
@@ -38,6 +39,7 @@ class WordConcept:
 class ConceptMapper:
     def __init__(self, server, id_reference, kanji_id, word_id):
         self.server = server
+        self.kana_mapper = KanaMapper(id_reference)
         id_reference = [[y.strip() for y in x.split(";")] for x in id_reference.splitlines()]
         self.id_index = {x[0]: Concept(*x) for x in id_reference[1:]}
         self.name_index = {x[2]: Concept(*x) for x in id_reference[1:]}
@@ -70,6 +72,7 @@ class ConceptMapper:
                 grammar_coords.append([coord["start"], coord["end"]])
         coords = [[x["coords"], x["coords"] + 1] for x in found_words] + grammar_coords
         missing_tags = calc_missing_tags(coords + [[len(pos_tags)-1, len(pos_tags)]])
+        kana = self.kana_mapper.word_prereqs(sent)
         return {
             "found_words": [self.word_index[x["stem"]] for x in found_words],
             "found_grammars": [self.grammar_index[x["name"]] for x in found_grammars if x["name"] in self.grammar_index],
@@ -77,6 +80,7 @@ class ConceptMapper:
             "verbose_found_words": [[x['stem'], pos_index_to_abs_index(x['coords'], pos_tags), x["surface_form"]] for x in found_words],
             "verbose_found_grammars": [[x["name"], x["coords"]] for x in found_grammars],
             "pos_tags": pos_tags,
+            "kana": kana
         }
 
     def filter_real_missing(self, missing_tags, pos_tags):

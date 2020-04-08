@@ -67,7 +67,10 @@ def pos_tag(sentence, kuro_server):
         if ru_or_u:
             tagged_words.append([elem[0], [*elem[1], ru_or_u], elem[2], romkan.to_roma(elem[0]), elem[3], romkan.to_roma(elem[3])])
         else:
-            tagged_words.append([elem[0], elem[1], elem[2], romkan.to_roma(elem[0]) if elem[0] else "", elem[3], romkan.to_roma(elem[3])])
+            try:
+                tagged_words.append([elem[0], elem[1], elem[2], romkan.to_roma(elem[0]) if elem[0] else "", elem[3], romkan.to_roma(elem[3])])
+            except:
+                pass
     return tagged_words
 
 

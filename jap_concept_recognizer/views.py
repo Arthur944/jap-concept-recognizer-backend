@@ -24,10 +24,13 @@ class TestView(APIView):
         analyzed_sents = [mapper.analyze_sent(x) for x in jap_texts]
         concepts = []
         for i in range(len(analyzed_sents)):
-            concepts.append([x.id for x in analyzed_sents[i]["found_grammars"] + analyzed_sents[i]["found_words"]])
+            try:
+                concepts += [x.id for x in analyzed_sents[i]["found_grammars"] + analyzed_sents[i]["found_words"]] + analyzed_sents[i]["kana"]
+            except:
+                print(analyzed_sents)
             analyzed_sents[i]["found_grammars"] = [str(x) for x in analyzed_sents[i]["found_grammars"]]
             analyzed_sents[i]["found_words"] = [str(x) for x in analyzed_sents[i]["found_words"]]
             analyzed_sents[i]["text"] = jap_texts[i]
             analyzed_sents[i]["sent"] = jap_texts[i]
             results.append(analyzed_sents[i])
-        return Response({"analyzed_sents": results, "concepts": concepts}, status=status.HTTP_200_OK)
+        return Response({"analyzed_sents": results, "concepts": list(set(concepts))}, status=status.HTTP_200_OK)
