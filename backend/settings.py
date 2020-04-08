@@ -26,7 +26,7 @@ SECRET_KEY = '2hsv)z86ntvx5qwb2^me#w1im8x&f5j#%l@s*6!9)v_slvmm&_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['annielearn.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['annielearn.herokuapp.com', 'localhost', 'japanese-concept-recognizer.herokuapp.com']
 
 
 # Application definition
