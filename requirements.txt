@@ -1,4 +1,5 @@
 git+https://github.com/kirk3110/kuromojipy
+py4j
 romkan
 django
 djangorestframework

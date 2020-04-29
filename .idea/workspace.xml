@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80191ea7-09f3-430a-b3ee-4d55d55e680e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcards_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/outcards_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/grammar-recognizer-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/grammar-recognizer-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar-recognizer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/grammar-recognizer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jap_concept_recognizer/logic/concept_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/jap_concept_recognizer/logic/concept_mapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jap_concept_recognizer/logic/consts.py" beforeDir="false" afterPath="$PROJECT_DIR$/jap_concept_recognizer/logic/consts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jap_concept_recognizer/logic/grammar_recognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/jap_concept_recognizer/logic/grammar_recognizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jap_concept_recognizer/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/jap_concept_recognizer/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,62 +23,127 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="120" column="23" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
-              <folding>
-                <element signature="e#308#317#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/grammar_recognizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/concept_mapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/kana_mapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="e#39#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5697043">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="336">
+                  <caret line="19" column="92" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="92" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/tests.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/grammar_recognizer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="430">
+                  <caret line="590" column="24" lean-forward="true" selection-start-line="590" selection-start-column="24" selection-end-line="590" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#0#46#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/sre_parse.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="149">
+                  <caret line="818" selection-start-line="818" selection-end-line="818" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/jap_concept_recognizer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="287">
+                  <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backend/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="456">
+                  <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#631#663#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/requirements.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/concept_mapper.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="57" column="69" lean-forward="true" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/kana_mapper.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="792">
+                  <caret line="34" selection-start-line="34" selection-end-line="34" />
+                  <folding>
+                    <element signature="e#39#48#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/consts.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="227">
+                  <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -81,6 +154,22 @@
       <find>adverb</find>
       <find>i_adverb</find>
       <find>analyze_sent</find>
+      <find>allowed</find>
+      <find>intransitive</find>
+      <find>contextual</find>
+      <find>find_words_in_sent</find>
+      <find>verbs</find>
+      <find>state-of-</find>
+      <find>verb clause</find>
+      <find>coords&quot;:</find>
+      <find>verb ca</find>
+      <find>grammar_in_words</find>
+      <find>desu</find>
+      <find>recognize_</find>
+      <find>past_negative</find>
+      <find>kara</find>
+      <find>find_word</find>
+      <find>dearu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,24 +179,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/backend/urls.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/jap_concept_recognizer/logic/jap_concept_recognizer.py" />
         <option value="$PROJECT_DIR$/jap_concept_recognizer/logic/japanese_text_extractor/japanese_text_extractor.py" />
         <option value="$USER_HOME$/Desktop/annie_scripts_2/Japanese-concept-recognizer/words/word_prereq_creator.py" />
         <option value="$USER_HOME$/Desktop/annie_scripts_2/Japanese-concept-recognizer/words/jap_prereq_creator.py" />
-        <option value="$PROJECT_DIR$/jap_concept_recognizer/logic/concept_mapper.py" />
         <option value="$PROJECT_DIR$/jap_concept_recognizer/logic/kana_mapper.py" />
-        <option value="$PROJECT_DIR$/jap_concept_recognizer/logic/grammar_recognizer.py" />
         <option value="$PROJECT_DIR$/jap_concept_recognizer/views.py" />
         <option value="$PROJECT_DIR$/backend/settings.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/jap_concept_recognizer/tests.py" />
+        <option value="$PROJECT_DIR$/jap_concept_recognizer/logic/grammar_recognizer.py" />
+        <option value="$PROJECT_DIR$/jap_concept_recognizer/logic/concept_mapper.py" />
+        <option value="$PROJECT_DIR$/jap_concept_recognizer/logic/consts.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1288" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="421" />
+    <option name="y" value="115" />
+    <option name="width" value="861" />
+    <option name="height" value="945" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,6 +217,17 @@
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="jap_concept_recognizer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="jap_concept_recognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +263,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.backend">
+    <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="jap_concept_recognizer.tests.TestGrammarRecognizer" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="backend" type="Python.DjangoServer" factoryName="Django server">
       <module name="backend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,7 +312,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="backend.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\23a23\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -186,6 +328,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" />
+        <item itemvalue="Django tests.Test: jap_concept_recognizer.tests.TestGrammarRecognizer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -210,7 +358,12 @@
       <workItem from="1583926699433" duration="3148000" />
       <workItem from="1584082213491" duration="488000" />
       <workItem from="1584088688412" duration="3044000" />
-      <workItem from="1586342952656" duration="609000" />
+      <workItem from="1586342952656" duration="3220000" />
+      <workItem from="1586516727727" duration="9000" />
+      <workItem from="1586860744335" duration="7000" />
+      <workItem from="1588057935368" duration="7694000" />
+      <workItem from="1588086119902" duration="10093000" />
+      <workItem from="1588147621522" duration="13816000" />
     </task>
     <task id="LOCAL-00001" summary="stuff">
       <created>1586343177396</created>
@@ -219,23 +372,69 @@
       <option name="project" value="LOCAL" />
       <updated>1586343177396</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="stuff">
+      <created>1586343604014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586343604014</updated>
+    </task>
+    <task id="LOCAL-00003" summary="allowed hosts">
+      <created>1586343792497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586343792497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 10h 42m 54s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 10h 43m 09s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 10h 46m 30s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 10h 48m 24s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 10h 48m 59s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 10h 51m 18s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 10h 59m 45s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 11h 00m 01s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 11h 00m 22s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper - 2020.04.28 at 11h 01m 23s.xml">
+      <configuration name="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34348000" />
+    <option name="totallyTimeSpent" value="68578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1288" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29126215" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30769232" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3979933" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33779263" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4225195" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -257,7 +456,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
+    <MESSAGE value="allowed hosts" />
+    <option name="LAST_COMMIT_MESSAGE" value="allowed hosts" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/backend$Test__jap_concept_recognizer_tests_TestGrammarRecognizer_test_mapper.coverage" NAME="Test: jap_concept_recognizer.tests.TestGrammarRecognizer.test_mapper Coverage Results" MODIFIED="1588064480052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__jap_concept_recognizer_tests_TestGrammarRecognizer.coverage" NAME="Test: jap_concept_recognizer.tests.TestGrammarRecognizer Coverage Results" MODIFIED="1588058331748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
@@ -269,52 +473,47 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>hiragana</expression-string>
+        <expression-string>encoded</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hirgaana</expression-string>
+        <expression-string>pattern</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.kana</expression-string>
+        <expression-string>match.start()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.word_index</expression-string>
+        <expression-string>found_grammars[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>encoded[80:89]</expression-string>
+        <expression-string>found_grammars</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>encoded_index_to_pos_index(80, encoded)</expression-string>
+        <expression-string>[self.grammar_index[x[&quot;name&quot;]] for x in found_grammars if x[&quot;name&quot;] in self.grammar_index] + grammar_in_words</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>encoded_index_to_pos_index(89, encoded)</expression-string>
+        <expression-string>[self.word_index[x[&quot;stem&quot;]] for x in found_words][0][0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>encoded[54]</expression-string>
+        <expression-string>[self.word_index[x[&quot;stem&quot;]] for x in found_words][0][1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>encoded[:54]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>encoded[54:]</expression-string>
+        <expression-string>[self.word_index[x[&quot;stem&quot;]] for x in found_words]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -332,31 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/consts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/jap_concept_recognizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/backend/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -367,20 +541,57 @@
     <entry file="file://$USER_HOME$/Desktop/annie_scripts_2/Japanese-concept-recognizer/words/word_prereq_creator.py" />
     <entry file="file://$PROJECT_DIR$/../../annielearn/annielearn/venv/Lib/site-packages/romkan/common.py" />
     <entry file="file://$USER_HOME$/Desktop/annie_scripts_2/Japanese-concept-recognizer/words/jap_prereq_creator.py" />
-    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/grammar_recognizer.py">
+    <entry file="file://$PROJECT_DIR$/backend/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+        <state relative-caret-position="552">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#308#317#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/concept_mapper.py">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="92" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="92" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -394,20 +605,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/views.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/sre_parse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="149">
+          <caret line="818" selection-start-line="818" selection-end-line="818" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/settings.py">
+    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/jap_concept_recognizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="120" column="23" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
+        <state relative-caret-position="287">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
           <folding>
-            <element signature="e#308#317#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/grammar_recognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="590" column="24" lean-forward="true" selection-start-line="590" selection-start-column="24" selection-end-line="590" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/concept_mapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="57" column="69" lean-forward="true" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jap_concept_recognizer/logic/consts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
         </state>
       </provider>
     </entry>
