@@ -46,19 +46,13 @@ class ConceptMapper:
         id_reference = [[y.strip() for y in x.split(";")] for x in id_reference.splitlines()]
         self.id_index = {x[0]: Concept(*x) for x in id_reference[1:]}
         self.name_index = {x[2]: Concept(*x) for x in id_reference[1:]}
-        self.grammar_index = {x: (self.id_index[str(grammars[x])] if grammars[x] != -1 else Concept(-1, -1, x)) for x in grammars.keys()}
+        self.grammar_index = {x: (self.id_index[str(grammars[x])]) for x in grammars.keys()}
         self.kanji_index = {x.name: x for x in self.id_index.values() if x.parent_id == kanji_id}
         self.word_index = {x.name: x for x in self.id_index.values() if x.parent_id == word_id}
         self.word_index["この"] = [self.word_index["これ"], self.grammar_index["the の particle"]]
         self.word_index["あの"] = [self.word_index["あれ"], self.grammar_index["the の particle"]]
         self.word_index["その"] = [self.word_index["それ"], self.grammar_index["the の particle"]]
         self.word_index['そこで'] = [self.word_index['そこ'], self.grammar_index['The contextual で particle']]
-        self.word_index['から'] = Concept(-1, -1, 'from')
-        self.word_index['まで'] = Concept(-1, -1, 'until')
-        self.word_index['たち'] = Concept(-1, -1, 'pluralizing suffix')
-        self.word_index['また'] = Concept(-1, -1, 'again')
-        self.word_index['日本'] = Concept(-1, -1, 'Japan')
-        self.word_index['日本語'] = Concept(-1, -1, 'Japanese')
         self.setup_exception_words()
         self.pos_tags = None
         self.encoded = None

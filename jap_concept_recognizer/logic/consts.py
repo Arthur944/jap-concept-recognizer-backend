@@ -132,8 +132,16 @@ grammars = {
     "te form positive": 45581,
     "te form negative": 45582,
     "kara": 45585,
-    # TODO
-    "potential form": -1,
+    "potential form": 56465,
+    "dearu": 56459,
+    "deshou": 56464,
+    "nara": 56461,
+    "arimasen": 45569,
+    "darou": 56466,
+    "contradiction": 56448,
+    "enduring states": 56452,
+    "toiu": 56475,
+    "kamoshirenai": 56476,
 }
 
 all_katakana = "アカサナハラタワヤエケセネヘレテイキシニヒリチオコソノホロトヲヨウクスヌフルツ"
